@@ -5,7 +5,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: 0 18 08 * *
+    - cron: 0 18 18 * *
 
 defaults:
   run:
