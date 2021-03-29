@@ -29,8 +29,8 @@ fi
 IBM_MEMORY=${IBM_MEMORY:-"128M"}
 V2_ID=${V2_ID:-"70e988c0-1c35-11eb-adc1-0242ac120002"}
 V2_PATH=${V2_PATH:-"path"}
-ALTER_ID=${ALTER_ID:-"1"}
-VLESS_EN=${VLESS_EN:-"false"}
+ALTER_ID=${ALTER_ID:-"0"}
+VLESS_EN=${VLESS_EN:-"true"}
 mkdir -p $IBM_APP_NAME
 
 if [ ! -f "./config/v2ray" ]; then
